@@ -8,3 +8,4 @@ class Player(models.Model):
   subtitute=models.BooleanField()
   country=models.CharField(max_length=200)
   price = models.CharField(max_length=200)
+  created_at = models.DateTimeField(auto_now_add=True)
