@@ -7,3 +7,4 @@ class Player(models.Model):
   height=models.FloatField()
   subtitute=models.BooleanField()
   country=models.CharField(max_length=200)
+  price = models.CharField(max_length=200)
